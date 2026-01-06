@@ -1,0 +1,142 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+
+body{ font-family:
+    Arial, Helvetica, sans-serif; 
+    background-image: 
+    linear-gradient(rgba(160, 102, 102, 0.5), rgba(0,0,0,0.5)), url(1.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    min-height: 1.6; 
+    color: aliceblue; 
+    justify-content: space-around;}
+
+img{max-width: 100%; height: auto; overflow-x: hidden;}
+
+header{ background-color: aqua;}
+
+.topbar{display: flex; align-items: center;
+justify-content: space-between;padding: 10px;}
+
+.logo{margin-left: 10px; 
+  border-radius: 
+  40px; width: 10p;}
+
+nav{display: flex;
+    margin-right: 100p; 
+    gap: 40px; 
+    padding-bottom: 200p; 
+margin-top: 100p;
+margin-right: 50px; 
+color: aqua;}
+
+main{ background-color: rgb(7, 3, 44); color: rgb(175, 152, 19); 
+    height: 50px; 
+    size: 200px; 
+    display: flex; 
+    align-items: center;
+    font-size: 30px; 
+    justify-content: space-between; 
+    justify-content: center;}
+
+div{ flex-wrap: wrap; 
+border-color: aliceblue; 
+display: flex; 
+justify-content: space-around; 
+gap: 30px;
+text-align: center; 
+height: fit-content; 
+align-content: center;
+padding-bottom: 20px;}
+   
+     .container{ display: flex; 
+      justify-content: center; 
+      width: 900p;gap: 20px; 
+      align-items: stretch;
+      flex-wrap: wrap;
+      width: 100%;
+   }   
+
+     #About{ width: 30%;
+  min-height: 400px;
+  height: auto;
+  padding: 30px;
+  border-radius: 50px;
+background-color: rgb(1, 1, 41);}
+
+        #About h2{ padding-bottom: 50px;}
+
+        #Service{ width: 30%;
+  min-height: 400px;
+  height: auto;
+  padding: 30px;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: rgb(1, 1, 41)}
+
+        #Service h2{ padding-bottom: 30px;}
+        #Service h3{ color: rgb(157, 162, 167);}
+
+      .us{  width: 30%;
+  min-height: 400px;
+  height: auto;
+  padding: 30px;
+  border-radius: 50px;
+  overflow: hidden; 
+  background-color: rgb(1, 1, 41)}
+
+        .us ul{ list-style: none;}
+        .us h2{ padding-bottom:  50px;}
+
+
+
+.hero{ height: 500px; 
+  justify-items: center; 
+  align-content: center;
+  padding-top: 60px; 
+  font-size: 30px;}
+
+     .hero h2{ padding-bottom: 50px;}
+
+     .hero p{ font-size: 25px;}
+
+.contact { align-items: center; 
+           color: aliceblue;}
+
+footer{ min-height: 100px; 
+     background-color:black; 
+     color: aliceblue; 
+     align-items: center; 
+     border-top: inset;}
+
+     .bottom{ align-content: center; 
+      color: rgb(240, 243, 243); 
+      border-top-style: double; 
+      border-color: rgb(75, 75, 75); 
+      padding-top: 10px;}
+
+        @media (max-width: 768px) {
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-box,
+  .services-box,
+  .why-box {
+    width: 90%;
+    min-height: auto;
+    border-radius: 25px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+}
