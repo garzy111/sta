@@ -40,56 +40,44 @@ main{ background-color: rgb(7, 3, 44); color: rgb(175, 152, 19);
     justify-content: space-between; 
     justify-content: center;}
 
-div{ flex-wrap: wrap; 
-border-color: aliceblue; 
-display: flex; 
-justify-content: space-around; 
-gap: 30px;
-text-align: center; 
-height: fit-content; 
+    .container
+    { align-content: center; 
+      justify-items: center;
+      gap: 30px;}
+
+#About
+{ background-color: rgb(5, 13, 80);
+justify-items: center;
 align-content: center;
-padding-bottom: 20px;}
+padding: 20px;
+font-size: 30px;
+height:500px;
+border-radius: 20%;
+margin-bottom: 30px;}
+
+#Service
+{background-color: rgb(5, 13, 80);
+justify-items: center;
+align-content: center;
+padding: 20px;
+font-size: 30px;
+height:600px;
+border-radius: 20%;
+margin-bottom: 30px;}
+
+.us
+{ background-color: rgb(5, 13, 80);
+justify-items: center;
+align-content: center;
+padding: 20px;
+font-size: 30px;
+height:500px;
+border-radius: 20%;
+margin-bottom: 30px;
+flex-grow: 1;}
+
+.us ul{list-style: none;}
    
-     .container{ display: flex; 
-      justify-content: center; 
-      width: 900p;gap: 20px; 
-      align-items: stretch;
-      flex-wrap: wrap;
-      width: 100%;
-   }   
-
-     #About{ width: 30%;
-  min-height: 400px;
-  height: auto;
-  padding: 30px;
-  border-radius: 50px;
-background-color: rgb(1, 1, 41);}
-
-        #About h2{ padding-bottom: 50px;}
-
-        #Service{ width: 30%;
-  min-height: 400px;
-  height: auto;
-  padding: 30px;
-  border-radius: 50px;
-  overflow: hidden;
-  background-color: rgb(1, 1, 41)}
-
-        #Service h2{ padding-bottom: 30px;}
-        #Service h3{ color: rgb(157, 162, 167);}
-
-      .us{  width: 30%;
-  min-height: 400px;
-  height: auto;
-  padding: 30px;
-  border-radius: 50px;
-  overflow: hidden; 
-  background-color: rgb(1, 1, 41)}
-
-        .us ul{ list-style: none;}
-        .us h2{ padding-bottom:  50px;}
-
-
 
 .hero{ height: 500px; 
   justify-items: center; 
