@@ -117,7 +117,7 @@ footer{ min-height: 100px;
   .About,
   .Services,
   .us {
-    width: 500%;
+    width: 100%;
     min-height: auto;
     border-radius: 25px;
   }
