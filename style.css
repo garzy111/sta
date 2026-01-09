@@ -10,13 +10,14 @@ body{ font-family:
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    min-height: 1.6; 
+    min-height: 1; 
     color: aliceblue; 
     justify-content: space-around;}
 
 img{max-width: 100%; height: auto; overflow-x: hidden;}
 
-header{ background-color: linear-gradient(rgba(160, 102, 102, 0.5), rgba(0,0,0,0.5)),;}
+header{ background-color: 
+  linear-gradient(rgba(160, 102, 102, 0.5), rgba(0,0,0,0.5)),;}
 
 .topbar{display: flex; align-items: center;
 justify-content: space-between;padding: 10px;}
@@ -90,9 +91,9 @@ main{ background-color: rgb(7, 3, 44); color: rgb(175, 152, 19);
   justify-items: center; 
   align-content: center;
   padding-top: 60px; 
-  font-size: 30px;}
+  font-size: 20px;}
 
-     .hero h2{ padding-bottom: 50px;}
+     .hero h2{ padding-bottom: 20px;}
 
      .hero p{ font-size: 25px;}
 
@@ -113,10 +114,10 @@ footer{ min-height: 100px;
 
         @media (max-width: 768px) 
         { .container{ grid-template-columns: 1fr;}
-  .about-box,
-  .services-box,
-  .us-box {
-    width: 90%;
+  .About,
+  .Services,
+  .us {
+    width: 500%;
     min-height: auto;
     border-radius: 25px;
   }
